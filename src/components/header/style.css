@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    background-color: #60a3bc;
+    padding: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logged {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logged p {
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.logged button {
+    border: none;
+    padding: 0.6rem 1.4rem;
+    background: #e55039;
+    color: #fff;
+}
+.logged button:hover {
+    background: #eb2f06;
+    transition: all linear 0.4s;
+    cursor: pointer;
+}
+
+.brand {
+    color: #fff;
+    font-weight: 400;
+}

@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    background: #ddd;
+    padding: 2rem;
+}
+.comment {
+    width: 40%;
+    background: #fff;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+.comment p {
+    color: #666;
+    padding: 0.2rem;
+    font-weight: 300;
+}
+.comment small {
+    color: #666;
+    font-weight: 600;
+}

@@ -1,0 +1,27 @@
+.txtMessage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #ccc;
+}
+.btnMessage {
+    padding: 1rem 1.4rem;
+    border: none;
+    background: #079992;
+    color: #fff;
+    width: 10%;
+}
+.btnMessage:hover {
+    background: #38ada9;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.form-input {
+    padding: 1rem;
+    border: none;
+    background: #eee;
+    color: #333;
+    width: 30%;
+}
