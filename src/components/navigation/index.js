@@ -40,6 +40,7 @@ export default class Navigation extends Component {
                         placeholder="Escreva a sua mensagem..."
                         value={this.state.value}
                         onChange={this.handleChange}
+                        autoFocus="true"
                     />
 
                     <button className="btnMessage" type="submit">

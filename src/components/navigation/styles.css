@@ -4,14 +4,13 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background: #ccc;
+    background: #eee;
 }
 .btnMessage {
     padding: 1rem 1.4rem;
     border: none;
     background: #079992;
     color: #fff;
-    width: 10%;
 }
 .btnMessage:hover {
     background: #38ada9;
@@ -23,5 +22,8 @@
     border: none;
     background: #eee;
     color: #333;
-    width: 30%;
+    font-size: 1.4rem;
+}
+.form-input:focus {
+    outline: none;
 }

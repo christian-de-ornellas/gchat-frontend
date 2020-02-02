@@ -3,9 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex: 1;
     background: #ddd;
-    padding: 2rem;
 }
 .comment {
     width: 40%;
