@@ -15,12 +15,6 @@ export default class Home extends Component {
         return this.setState({ comment: response.data.messages });
     }
 
-    async author() {
-        const response = await api.get("/message/list");
-        const author = response.data.messages.map(author => author.user.name);
-        return author;
-    }
-
     handleComment() {
         const { comment } = this.state;
         const message = comment.map(comment => {
