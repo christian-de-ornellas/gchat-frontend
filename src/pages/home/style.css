@@ -22,3 +22,17 @@
     color: #666;
     font-weight: 600;
 }
+.btn-remove {
+    border: none;
+    padding: 0.2rem 0.4rem;
+    background: #e55039;
+    color: #fff;
+}
+.btn-remove:hover {
+    background: #eb2f06;
+    transition: all linear 0.4s;
+    cursor: pointer;
+}
+.btn-remove:focus {
+    outline: none;
+}
