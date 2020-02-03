@@ -19,11 +19,11 @@ export default class Navigation extends Component {
 
     async handleSubmit(event) {
         try {
+            event.preventDefault();
             const send = await api.post("/message/create", {
                 user: "5e37655a7882161eae946b7f",
                 message: this.state.value
             });
-            event.preventDefault();
             return send;
         } catch (error) {
             console.error(error);
@@ -40,7 +40,7 @@ export default class Navigation extends Component {
                         placeholder="Escreva a sua mensagem..."
                         value={this.state.value}
                         onChange={this.handleChange}
-                        autoFocus="true"
+                        autoFocus={true}
                     />
 
                     <button className="btnMessage" type="submit">
