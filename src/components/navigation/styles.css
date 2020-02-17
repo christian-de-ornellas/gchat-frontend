@@ -1,10 +1,6 @@
 .txtMessage {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
     background: #eee;
+    display: flex;
 }
 .btnMessage {
     padding: 1rem 1.4rem;
@@ -22,7 +18,7 @@
     border: none;
     background: #eee;
     color: #333;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .form-input:focus {
     outline: none;
