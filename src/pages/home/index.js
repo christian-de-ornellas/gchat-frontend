@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import api from "../../services/api";
+import Navigation from "../../components/navigation";
 
 export default class Home extends Component {
     constructor(props) {
@@ -57,6 +58,13 @@ export default class Home extends Component {
     }
 
     render() {
-        return <div className="content">{this.handleComment()}</div>;
+        return (
+            <div>
+                <div className="content">{this.handleComment()}</div>
+                <div className="navigation-message">
+                    <Navigation />
+                </div>
+            </div>
+        );
     }
 }
