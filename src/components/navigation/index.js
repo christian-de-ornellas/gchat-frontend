@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./styles.css";
-import "../../services/api";
 import api from "../../services/api";
 
 export default class Navigation extends Component {
