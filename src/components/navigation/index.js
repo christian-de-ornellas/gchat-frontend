@@ -24,6 +24,7 @@ export default class Navigation extends Component {
                 user: "5e4a0cdcafd4153de631421d",
                 message: this.state.value
             });
+            this.setState({ value: "" });
             return send;
         } catch (error) {
             console.error(error);
