@@ -1,17 +1,30 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header";
-import Navigation from "./components/navigation";
 import Home from "./pages/home";
+import CreateUser from "./pages/user/create";
 import "./styles.css";
 
 export default class App extends Component {
     render() {
         return (
-            <div>
+            <Router>
                 <Header nameLogged="Christian Possidonio" />
-                <Home />
-                <Navigation />
-            </div>
+                <Switch>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                    <Route path="/create-user">
+                        <CreateUser />
+                    </Route>
+                    <Route path="/login">
+                        <div>
+                            {" "}
+                            <h1>LOGIN</h1>
+                        </div>
+                    </Route>
+                </Switch>
+            </Router>
         );
     }
 }
