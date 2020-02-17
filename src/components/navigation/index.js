@@ -21,7 +21,7 @@ export default class Navigation extends Component {
         try {
             event.preventDefault();
             const send = await api.post("/message/create", {
-                user: "5e37655a7882161eae946b7f",
+                user: "5e4a0cdcafd4153de631421d",
                 message: this.state.value
             });
             return send;
